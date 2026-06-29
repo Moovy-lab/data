@@ -8,7 +8,7 @@ from scripts.ETL.extract import extraction_data, extract_data_dpt
 from scripts.ETL.transform import transform_data
 from scripts.ETL.load import load_data
 
-with open('config.yaml', 'r') as file:
+with open('config.yml', 'r') as file:
     config_data = yaml.safe_load(file)
 
 def run_pipeline():
